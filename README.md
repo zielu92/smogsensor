@@ -2,7 +2,7 @@
 <h2>Hardware</h2>
 I used ESP8266(nodemcu) and few sensors like: DTH11 (it's a poor sensor), BMP180 and to smog sensor SDS011. <br>
 <b>Connection</b><br>
-i will provide graphics soon
+I will provide graphics soon
 <h2>Software</h2>
 For ESP I install <a href="https://github.com/letscontrolit/ESPEasy">ESPEasy</a> firmware. <br>
 <b>You might install testing version of ESP to get SDS011 device options</b><br>
@@ -31,8 +31,8 @@ CREATE TABLE `records2` (
   `valname3` text NOT NULL,
   `datatime` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=latin2;
-</code>
-<b>Config</b>
+</code><br>
+<b>Config</b><br>
 $devicePasword = ""; - You have to have same password like in URL<br>
 $timeZone = "+0 hours"; - If your server works in different time zones, just write the difference of time between them<br>
 $delayOnUpdate = "5 minute"; - if your internet/server is so slow, you should increase this, but not a big amount of time<br>
