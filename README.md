@@ -1,4 +1,4 @@
-<h1>Smog sensor page with statistics, written fast</h1>
+<h1>Smog sensor page with statistics</h1>
 <h2>Hardware</h2>
 I used ESP8266(nodemcu) and few sensors like: DTH11 (it's a poor sensor), BMP180 and to smog sensor SDS011. <br>
 <b>Connection</b><br>
@@ -45,12 +45,15 @@ You can also change the name in controller into<br>
 test.php&name=%sysname%&task=%tskname%&valuename=%valname%&value=%value%
 </code>
 and check output in test.log<br><br>
-<b>Index</b>
-Because i wasn't sure about right indexing, i just provide formula like that: PM2.5+PM10/2. You can set your own in function file.<br>
-<b>Housing</b>
+<b>Index</b><br>
+Because I wasn't sure about right indexing. I just provide own formula like that: PM2.5+PM10/2. You can set your own in function file.<br>
+<b>Housing</b><br>
 You can put it into two elbow PCV pipes, then water will not go inside, and air flow can freely.<br>
+<b>Bugs</b><br>
+You might find a lot of bugs :) You can try to eliminate it or just write to me<br>
 <h2>Demo</h2>
 <br>
 <img src="https://raw.githubusercontent.com/zielu92/smogsensor/master/pictures/screen3.png"><br>
 You can check demo <br>
 <b><a href="https://mzielinski.pl/smog/">https://mzielinski.pl/smog/</a>
+
