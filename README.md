@@ -33,10 +33,10 @@ CREATE TABLE `records2` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin2;
 </code><br>
 <b>Config</b><br>
-$devicePasword = ""; - You have to have same password like in URL<br>
-$timeZone = "+0 hours"; - If your server works in different time zones, just write the difference of time between them<br>
-$delayOnUpdate = "5 minute"; - if your internet/server is so slow, you should increase this, but not a big amount of time<br>
-$differenceBetweenUpdate = "25 minute"; - if you don't want too much data in your database, you can block it on the period of time<br>
+$devicePasword  - You have to have same password like in URL<br>
+$timeZone - If your server works in different time zones, just write the difference of time between them<br>
+$delayOnUpdate - if your internet/server is so slow, you should increase this, but not a big amount of time<br>
+$differenceBetweenUpdate - if you don't want too much data in your database, you can block it on the period of time<br>
 <h2>Demo</h2>
 You can check demo <br>
 <b><a href="https://mzielinski.pl/smog/">https://mzielinski.pl/smog/</a>
