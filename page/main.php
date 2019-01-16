@@ -48,5 +48,7 @@
       echo('<h4 class="text-center">Last update: '.$date.'</h4>'); 
     } else echo("Sorry, there is no data :(");
     ?>
+
+
   </h2>
 </div>
