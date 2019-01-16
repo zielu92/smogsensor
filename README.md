@@ -7,11 +7,11 @@ I used ESP8266(nodemcu) and few sensors like: DTH11 (it's a poor sensor), BMP180
 Install <a href="https://github.com/letscontrolit/ESPEasy">ESPEasy</a> firmware. <br>
 <b>You might install testing version ESP to get SDS011 device options</b>
 You can do it by comment #define PLUGIN_BUILD_NORMAL and uncomment #define PLUGIN_BUILD_TESTING<br>
-<b>Devices</b>
+<b>Devices</b><br>
 After flashing firmware and connect device into ESP, Please configurate devices like bellow - you can name it different, but script checking names of devices (check config/devices.php)<br>
 <img src="https://raw.githubusercontent.com/zielu92/smogsensor/master/pictures/screen1.png">
 Please set different time of delay for each device - if ESP starts sending data at the same time, you can have problem with parameters - later I will try to solve this problem.<br>
-<br><b>Controllers</b>
+<br><b>Controllers</b><br>
 Create new controller as Generic HTTP<br>
 <img src="https://raw.githubusercontent.com/zielu92/smogsensor/master/pictures/screen2.png">
 Controller Hostname: - Address of your page with script.<br>
