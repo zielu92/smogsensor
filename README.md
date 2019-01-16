@@ -2,7 +2,7 @@
 <h2>Hardware</h2>
 I used ESP8266(nodemcu) and few sensors like: DTH11 (it's a poor sensor), BMP180 and to smog sensor SDS011. <br>
 <b>Connection</b><br>
-<img src="smogsensor/pictures/scheme.png"><br>
+<img src="https://raw.githubusercontent.com/zielu92/smogsensor/master/pictures/scheme.png"><br>
 <h2>Software</h2>
 For ESP I install <a href="https://github.com/letscontrolit/ESPEasy">ESPEasy</a> firmware. <br>
 <b>You might install testing version of ESP to get SDS011 device options</b><br>
