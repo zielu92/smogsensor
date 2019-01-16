@@ -13,8 +13,8 @@ Please set different time of delay for each device - if they start sending data 
 <br><b>Controllers</b>
 I create new controller as Generic HTTP<br>
 <img src="https://raw.githubusercontent.com/zielu92/smogsensor/master/pictures/screen2.png">
-Controller Hostname: - address of your page with script<br>
-Controller Publish: - API with data.<br>
+Controller Hostname: - Address of your page with script.<br>
+Controller Publish: - URL with data.<br>
 You can set there your password, same like in config in the script<br> 
 
 index.php?s=update&name=%sysname%&task=%tskname%&valuename=%valname%&value=%value%&pass=<i>YOUR PASSWORD FROM CONFIG</i><br> 
@@ -47,7 +47,8 @@ test.php&name=%sysname%&task=%tskname%&valuename=%valname%&value=%value%
 and check output in test.log<br><br>
 <b>Index</b>
 Because i wasn't sure about right indexing, i just provide formula like that: PM2.5+PM10/2. You can set your own in function file.<br>
-
+<b>Housing</b>
+You can put it into two elbow PCV pipes, then water will not go inside, and air flow can freely.<br>
 <h2>Demo</h2>
 <br>
 <img src="https://raw.githubusercontent.com/zielu92/smogsensor/master/pictures/screen3.png"><br>
