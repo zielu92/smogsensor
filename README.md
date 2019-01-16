@@ -40,7 +40,7 @@ $delayOnUpdate - if your internet/server is so slow, you should increase this, b
 $differenceBetweenUpdate - if you don't want too much data in your database, you can block it on the period of time<br>
 <h2>Extra</h2>
 <b>Testing</b>
-You can also change the name in controller into<br>
+You can also change controller publish in controller to<br>
 <code>
 test.php&name=%sysname%&task=%tskname%&valuename=%valname%&value=%value%
 </code>
