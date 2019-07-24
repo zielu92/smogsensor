@@ -10,7 +10,7 @@ You can do it by comment #define PLUGIN_BUILD_NORMAL and uncomment #define PLUGI
 <b>Devices</b><br>
 After flashing firmware and connect device into ESP, Please configurate devices like bellow - you can name it different, but script checking names of devices (check config/devices.php)<br>
 <img src="https://raw.githubusercontent.com/zielu92/smogsensor/master/pictures/screen1.png">
-Please set different time of delay for each device - if ESP starts sending data at the same time, you can have problem with parameters - later I will try to solve this problem.<br>
+Please set different time of delay for each device - if ESP starts sending data at the same time, you might have problem with parameters, but later I will try to solve this problem.<br>
 <br><b>Controllers</b><br>
 Create new controller as Generic HTTP<br>
 <img src="https://raw.githubusercontent.com/zielu92/smogsensor/master/pictures/screen2.png">
